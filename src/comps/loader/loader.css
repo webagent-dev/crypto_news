@@ -1,0 +1,19 @@
+.loaderContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: black;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+.loaderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
