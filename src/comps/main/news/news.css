@@ -63,3 +63,11 @@ object-fit: contain;
     font-weight: 700;
     font-family: monospace;
 }
+.form__container{
+    padding: 30px;
+}
+.form__container > select{
+    padding: 5px 20px;
+    
+}
+    

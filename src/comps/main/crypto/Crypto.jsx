@@ -24,7 +24,7 @@ function Crypto() {
             </form>
             <div className="homemakeup_wrapper">
                 {
-                list?.map((doc) => <Cryptomakeup key={doc.id} data={doc}/>)
+                list?.map((doc) => <Cryptomakeup key={doc.uuid} data={doc}/>)
                  }
             </div>
         </div>

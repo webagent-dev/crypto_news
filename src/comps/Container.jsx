@@ -7,6 +7,7 @@ import Exchange from './main/exchange/Exchange'
 import News from './main/news/News'
 import Zoom from 'react-reveal'
 import Footer from './footer/Footer'
+import Detail from './main/datail/Detail'
 
 
 function Container() {
@@ -18,6 +19,7 @@ function Container() {
             <Route path='/crytocurrecy' element={<Cryto />}/>
             <Route path='/exchange' element={<Exchange />}/>
             <Route path='/news' element={<News />}/>
+            <Route  path='/cryto_news/:id' element={<Detail />}/>
             </Routes>
             </Zoom>
         <Footer />

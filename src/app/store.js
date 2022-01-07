@@ -6,8 +6,8 @@ import { newApis } from '../services/newApis'
 
 export const store = configureStore({
     reducer:{
-        [cryptoApi.reducerPath]: cryptoApi.reducer
-        // [newApis.reducerPath]: newApis.reducer
+        [cryptoApi.reducerPath]: cryptoApi.reducer,
+        [newApis.reducerPath]: newApis.reducer
     },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(cryptoApi.middleware)
 })
